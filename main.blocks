@@ -1,0 +1,95 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="DBX8awxK$}vs5uCB!61h">Goat</variable><variable type="KIND_SpriteKind" id="Mb%Q$+_BjjGQ8hW``Ls{">StackGoat</variable><variable id="*L%oJ3cL6r4%j{hpprQe">goatImgs</variable><variable id="|M2|O,ySL]cCYA@|Mi3,">baseGoat</variable><variable id="4:5]w]t{J_l_9HB{kK9{">list</variable></variables><block type="pxt-on-start" id="7mFbVdgi2$%0y%~TrRKh" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="2I[fhSk[i4St_n3-~acl"><field name="VAR" id="*L%oJ3cL6r4%j{hpprQe">goatImgs</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with" id="+kA_96[/XMq+;TJh}3(R" inline="false"><mutation items="6"/><value name="ADD0"><block type="screen_image_picker" id="uThnh=a6W6+RK~ed^HoP"><field name="img">img`
+. . . . . . . . . . . . f e e . 
+. . . . . . . . . . . . . e e . 
+. . . . . . . . . . . . d c d c 
+. . . . . . . . . . . . d d d d 
+e d d d d d d d d d d d d a d d 
+. d d d d d d d d d d d d d a a 
+. d d d d d d d d d d d d . . . 
+. d d d d d d d d d d d d . . . 
+. . d d d d d d d d d d . . . . 
+. . . d . d . . d . d . . . . . 
+. . . d . d . . d . d . . . . . 
+. . . e . e . . e . e . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"uThnh=a6W6+RK~ed^HoP"}}</data></block></value><value name="ADD1"><block type="screen_image_picker" id="c=d7BQGCvF{kQ.5{]:{/"><field name="img">img`
+. . . . f f . . . . . . . . . . . . . 
+. . d f f d f . . . . . . . . . . . . 
+. 4 4 4 4 4 4 4 . . . . . . . . . . . 
+. . 1 4 4 1 . . . . . . . . . . . . . 
+. 4 4 4 4 4 4 . . . . . . . . . . . . 
+. 4 4 4 4 4 4 . . . . . . . . . . . . 
+4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. 4 2 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+. . 2 . . 4 4 4 4 4 4 4 4 4 4 4 4 4 . 
+. . . . . 4 4 4 4 4 4 4 4 4 4 4 4 4 . 
+. . . . . 4 2 4 2 2 2 2 2 2 2 2 2 . . 
+. . . . . 4 . 4 . . . . . 2 . 4 . . . 
+. . . . . 4 . 4 . . . . . 2 . 4 . . . 
+. . . . . 4 . 4 . . . . . 2 . 4 . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"c=d7BQGCvF{kQ.5{]:{/"}}</data></block></value><value name="ADD2"><block type="screen_image_picker" id="A2(8V0]e#)(C=rvG{bZR"><field name="img">img`
+. . . . . . . . b b d . . d d b . . . 
+. . . . . . . . b b b b b b b b . . . 
+. . . . . . . . . b b d b b d . . . . 
+. . . . . . . . . . b b b b b c . . . 
+. b . . . . . . . b b b b b b b . . . 
+. b . . . . b b b b b b b b b b . . . 
+. c b b b b b b b b b b . . . . . . . 
+. c b b b b b b b b b b . . . . . . . 
+. . c b b b b b b b b b . . . . . . . 
+. . c c b b b b b b b c . . . . . . . 
+. . c c c c c c c c c c . . . . . . . 
+. . c . b . . . c c c c . . . . . . . 
+. . c . b . . . . b . c . . . . . . . 
+. . c . b . . . . b . c . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"A2(8V0]e#)(C=rvG{bZR"}}</data></block></value><value name="ADD3"><block type="screen_image_picker" id="|!E@K2,aXsMV{OiA!][j"><field name="img">img`
+. . . . . . . . . . . . e . . e . . . 
+. . . . . . . . . . . e e e e e e . . 
+. . . . . . . . . . e e e e e e e e . 
+. . . . . . . . . e e e e c c c e e e 
+. . . . . . . . . . . . c c b c . . . 
+. . . c c c c c c c c c c f b f c . . 
+. . c c b b b b b b b b b f b f . . . 
+. . c b b b c c c b b b b b b c . . . 
+. c c b b c b b b b b b f b b c . . . 
+c c b b c b b b b b b b b f f f . . . 
+c b b b b b b b b b b b c c c . . . . 
+c c c c c c c c c c c c c . . . . . . 
+. . . . c . c . . . c . c . . . . . . 
+. . . . c . c . . . c . c . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"|!E@K2,aXsMV{OiA!][j"}}</data></block></value><value name="ADD4"><block type="screen_image_picker" id="/XyB(KLfZ/~oZqLge.Zo"><field name="img">img`
+. . . 1 . . . . . . . . . . . . . . 
+. . 1 c c c . . . . . . . . . . . . 
+. 1 1 1 1 c c . . . . . . . . . . 1 
+1 1 f 1 c 1 c c . . . . . . . . . 1 
+1 1 1 c 1 1 c c 1 1 1 1 1 1 1 1 1 1 
+1 1 1 c c c c 1 1 1 1 1 1 1 1 1 1 . 
+. . . 1 c c 1 1 1 1 1 1 1 1 1 1 1 . 
+. . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 . 
+. . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 . 
+. . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 . 
+. . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 . 
+. . . . 1 . 1 . . . . . . . 1 . 1 . 
+. . . . 1 . 1 . . . . . . . 1 . 1 . 
+. . . . 1 . 1 . . . . . . . 1 . 1 . 
+. . . . 1 . 1 . . . . . . . 1 . 1 . 
+. . . . c . c . . . . . . . c . c . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"/XyB(KLfZ/~oZqLge.Zo"}}</data></block></value><value name="ADD5"><block type="screen_image_picker" id="43,VasLJ7#ePa`j-:$Mk"><field name="img">img`
+.........................
+ff.............ff...ff...
+.ff............ffffff....
+..ff............ff2f2ffff
+...f............fffffffff
+...f............ffffff...
+...ff2f2ffffffffffffff...
+....f2f22fffffffff.......
+....f2ff2fffffffff.......
+....ff22ffffffffff.......
+....ffffffffffffff.......
+....fffffffff222ff.......
+....ffffffff2ff2ff.......
+....ffffffff22f2ff.......
+....fffffffff222f........
+.....f...f...f..f........
+.....f...f...f..f........
+.....f...f...f..f........
+`</field><data>{"commentRefs":[],"fieldData":{"img":"43,VasLJ7#ePa`j-:$Mk"}}</data></block></value></block></value><next><block type="variables_set" id="cSwSuOY`WDb}e~M4ogMx"><field name="VAR" id="|M2|O,ySL]cCYA@|Mi3,">baseGoat</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=";^FQ!s0cW4`2lu1;!W*("><value name="img"><shadow type="screen_image_picker"/><block type="array_pickRandom" id="e9mb{/HY8=d#cZ*B?H?U"><value name="list"><block type="variables_get" id="/P(+o=pc8YL-?Wug`t=0"><field name="VAR" id="*L%oJ3cL6r4%j{hpprQe">goatImgs</field></block></value></block></value></block></value><next><block type="gamesetbackgroundcolor" id="v*jYF+I{S7/GpGhQTM8n"><value name="color"><shadow type="colorindexpicker" id="yDfnZML?EIBjJQmTQAoo"><field name="index">9</field></shadow></value><next><block type="tilemap_editor" id="dGU|0%.w74;pi9JeAYZB"><field name="tilemap">tilemap`level`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level"}}</data></block></next></block></next></block></next></block></statement></block></xml>
